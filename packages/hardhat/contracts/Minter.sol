@@ -123,18 +123,14 @@ contract Nimbus is ERC721, Ownable {
   function mintItem(
     string memory name,
     string memory avatarStyle,
-    // string memory skinColor,
     string memory topType,
-    // string memory hatColor,
     string memory hairColor,
     string memory eyebrowType,
     string memory eyeType,
     string memory accessoriesType,
     string memory mouthType,
     string memory facialHairType,
-    // string memory facialHairColor,
     string memory clotheType,
-    // string memory clotheColor,
     // string memory graphicType,
     address _mintFor
   ) public returns (uint256) {
