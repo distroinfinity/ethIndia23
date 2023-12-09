@@ -27,9 +27,7 @@ const useDetails = (chainId: number, id: number) => {
           );
           const res = await providerContract.tokenURI(BigNumber.from(id));
           setResponse(res);
-        } catch (error) {
-          console.log("rr", error);
-        }
+        } catch (error) {}
       })();
     }
   }, [chainId]);
