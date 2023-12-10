@@ -23,7 +23,7 @@ const config: HardhatUserConfig = {
       viaIR: true,
     },
   },
-  defaultNetwork: "scroll",
+  defaultNetwork: "stylus",
 
   namedAccounts: {
     deployer: {
@@ -83,7 +83,12 @@ const config: HardhatUserConfig = {
     scroll: {
       url: `https://sepolia-rpc.scroll.io`,
       accounts: [deployerPrivateKey]
+    },
+    stylus:{
+      url:`https://stylus-testnet.arbitrum.io/rpc`,
+      accounts: [deployerPrivateKey]
     }
+
 
   },
   etherscan: {
