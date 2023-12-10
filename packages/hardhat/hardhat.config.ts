@@ -8,9 +8,9 @@ import "hardhat-deploy";
 // You can get your own at https://dashboard.alchemyapi.io
 const providerApiKey = process.env.ALCHEMY_API_KEY || "oKxs-03sij-U_N0iOlrSsZFr29-IqbuF";
 // If not set, it uses the hardhat account 0 private key.
-const deployerPrivateKey = "";
+const deployerPrivateKey = "2bdc313d763392891a716c92471e4056c189d3903aa2297e9f9914f7bf95e09e";
 // If not set, it uses ours Etherscan default API key.
-const etherscanApiKey = process.env.ETHERSCAN_API_KEY || "DNXJA8RX2Q3VZ4URQIWP7Z68CJXQZSC6AW";
+const etherscanApiKey = "1AHMB3XY6URTGW6DFFEH9IIW5CTS49YCZY";
 
 const config: HardhatUserConfig = {
   solidity: {
@@ -23,7 +23,7 @@ const config: HardhatUserConfig = {
       viaIR: true,
     },
   },
-  defaultNetwork: "stylus",
+  defaultNetwork: "celo",
 
   namedAccounts: {
     deployer: {
@@ -87,13 +87,17 @@ const config: HardhatUserConfig = {
     stylus:{
       url:`https://stylus-testnet.arbitrum.io/rpc`,
       accounts: [deployerPrivateKey]
+    },
+    celo: {
+      url:`https://alfajores-forno.celo-testnet.org`,
+      accounts: [deployerPrivateKey]
     }
 
 
   },
   etherscan: {
     apiKey: {
-      polygon: `${etherscanApiKey}`,
+      celo: `${etherscanApiKey}`,
     },
   },
 };
