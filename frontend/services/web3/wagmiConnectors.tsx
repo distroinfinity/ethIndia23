@@ -98,6 +98,31 @@ const supportedChains = [
       },
     },
   },
+  {
+    id: 44787,
+    name: "Celo",
+    network: "celo-testnet",
+    image: "/celo.png",
+    nativeCurrency: {
+      decimals: 18,
+      name: "CELO",
+      symbol: "CELO",
+    },
+    rpcUrls: {
+      default: {
+        http: ["https://alfajores-forno.celo-testnet.org"],
+      },
+      public: {
+        http: ["https://alfajores-forno.celo-testnet.org"],
+      },
+    },
+    blockExplorers: {
+      default: {
+        name: "Celo Alfajores Testnet Explorer",
+        url: "https://explorer.celo.org/alfajores/",
+      },
+    },
+  },
 ];
 
 /**
