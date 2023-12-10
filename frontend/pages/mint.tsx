@@ -109,7 +109,7 @@ const Mint: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Pixters: Mint</title>
+        <title>NIMBUS: Mint</title>
         <meta name="description" content="Create your very own NFT Avatars" />
         <link rel="shortcut icon" href="/pixters.png" />
       </Head>

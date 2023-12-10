@@ -105,7 +105,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Pixters: Home</title>
+        <title>NIMBUS: Home</title>
         <meta name="description" content="Create your very own NFT Avatars" />
         <link rel="shortcut icon" href="/pixters.png" />
       </Head>

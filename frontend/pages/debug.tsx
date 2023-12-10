@@ -12,7 +12,7 @@ const Debug: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Pixters: Debug</title>
+        <title>NIMBUS: Debug</title>
         <meta name="description" content="Create your very own NFT Avatars" />
         <link rel="shortcut icon" href="/pixters.png" />
       </Head>

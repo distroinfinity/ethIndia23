@@ -73,6 +73,31 @@ const supportedChains = [
       },
     },
   },
+  {
+    id: 23011913,
+    name: "Arbitrum Stylus",
+    network: "arbitrum-stylus",
+    image: "/arbitrum.png",
+    nativeCurrency: {
+      decimals: 18,
+      name: "Arbitrum",
+      symbol: "ARB",
+    },
+    rpcUrls: {
+      default: {
+        http: ["https://stylus-testnet.arbitrum.io/rpc"],
+      },
+      public: {
+        http: ["https://stylus-testnet.arbitrum.io/rpc"],
+      },
+    },
+    blockExplorers: {
+      default: {
+        name: "Arbitrum Stylus Testnet Explorer",
+        url: "https://stylus-testnet-explorer.arbitrum.io/",
+      },
+    },
+  },
 ];
 
 /**

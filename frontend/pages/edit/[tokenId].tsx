@@ -133,7 +133,7 @@ const Edit: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Pixters: Edit</title>
+        <title>NIMBUS: Edit</title>
         <meta name="description" content="Create your very own NFT Avatars" />
         <link rel="shortcut icon" href="/pixters.png" />
       </Head>
